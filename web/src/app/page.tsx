@@ -1,3 +1,9 @@
+import PanoramicView from "@/components/panoramic";
+
 export default function Home() {
-  return <></>;
+  return (
+    <>
+      <PanoramicView className="w-screen h-screen" />
+    </>
+  );
 }
