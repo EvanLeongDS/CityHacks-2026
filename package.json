@@ -1,0 +1,17 @@
+{
+  "name": "cityhacks-2026",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently 'cd web && npm run dev'"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
